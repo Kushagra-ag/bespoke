@@ -29,7 +29,7 @@
 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon" style="color: #000"></span>
+      <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#f9a11b;"></i></span>
     </button>
 
     <!-- Navbar links -->
@@ -52,14 +52,16 @@
       <div class="col-lg-9">
         <div class="row box my-3">
           <div class="col-md-6">
-            <div class="row">
+            <div class="row imgRow">
               <img src="./images/image1.png" style="width: 100%">
             </div>
           </div>
           <div class="col-md-6 d-flex flex-column justify-content-between">
-            <div class="d-flex justify-content-between align-content-center mt-2">
+            <div class="row justify-content-between align-content-center">
+              <div class="plotSale pl-3">
+                Plot for SALE <br/>
+              </div>
               <div>
-                Plot for sale <br/>
                 Yamunanagar
               </div>
               <div >
@@ -88,7 +90,7 @@
             <span class="d-block d-sm-inline">Freehold</span>
           </div>
         </div>
-        <div class="row box my-3 pb-2 text-center text-sm-left">
+        <div class="row box my-5 pb-2 text-center text-sm-left">
           <div class="col-12">
             <div class="row my-3">
               <a class="col-12 head" style="color: #3a3f4c" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -104,7 +106,7 @@
                 Address
               </div>
               <div class="col-sm-2 text-center">
-                Property
+                Details
               </div>
               <div class="col-sm-2 text-center">
                 Overview
@@ -118,16 +120,15 @@
             </div>
           </div>
         </div>
-        <div class="row box text-center text-sm-left">
+        <div class="row box mb-5 text-center text-sm-left">
           <div class="col-12">
             <div class="head my-3" id="overview">
               <h4 class="mb-4">
                 Overview
               </h4>
-              
             </div>
             <div class="row mb-3">
-              <div class="col-md-4 pb-3 pb-sm-0">
+              <div class="col-md-4 pb-3 pb-md-0">
                 <a style="color: #3a3f4c" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="true" aria-controls="collapseExample">
                   Property type <i class="fas fa-caret-down mx-1 navIcons"></i>
                 </a><br/>
@@ -138,7 +139,7 @@
                   </small>
                 </div>
               </div>
-              <div class="col-md-4 pb-3 pb-sm-0">
+              <div class="col-md-4 pb-3 pb-md-0">
                 <a style="color: #3a3f4c" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="true" aria-controls="collapseExample">
                   Availability <i class="fas fa-caret-down mx-1 navIcons"></i>
                 </a>
@@ -149,7 +150,7 @@
                   </small>
                 </div>
               </div>
-              <div class="col-md-4 pb-3 pb-sm-0">
+              <div class="col-md-4 pb-3 pb-md-0">
                 <a style="color: #3a3f4c" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="true" aria-controls="collapseExample">
                   Bathrooms <i class="fas fa-caret-down mx-1 navIcons"></i>
                 </a>
@@ -168,7 +169,7 @@
                   </h4>
                 </div>
                 <div>
-                  Abdullapur
+                  <i class="fas fa-map-marker-alt mx-1"></i>Abdullapur
                 </div>
               </div>
             </div>
@@ -185,6 +186,26 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row mb-5 box gallery text-center text-sm-left">
+          <div class="col-12">
+            <div class="head my-3" id="overview">
+              <h4 class="mb-4">
+                Gallery
+              </h4>
+            </div>
+            <div class="galleryImages">
+              <div class="column">
+                <img src="./images/image1.png">
+                <img src="./images/image2.png">
+              </div>
+              <div class="column">
+                <img src="./images/image2.png">
+                <img src="./images/image1.png">
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
