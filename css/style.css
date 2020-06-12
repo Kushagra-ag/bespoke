@@ -1,0 +1,51 @@
+
+body {
+	font-family: 'montserrat', sans-serif;
+	color: #3a3f4c;
+	font-weight: 400;
+}
+
+a:hover {
+	text-decoration: none;
+	color: initial;
+}
+
+.box {
+	border: 1px solid #e5e5f8;
+}
+
+.navbar {
+	border-bottom: solid 2px #000;
+}
+
+.head {
+	overflow: hidden;
+}
+
+.head::after {
+	content: '';
+	position: absolute;
+	width: 90%;
+	height: 1px;
+	background-color: #e5e5f8;
+}
+
+.keyDetails {
+	background-color: #f9a11b;
+    color: white;
+    font-weight: 500;
+}
+
+.navIcons {
+	font-size: 75%;
+	/*color: #f9a11b;*/
+	margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.head::after {
+		width: 90vw;
+		left: 5vw;
+	}
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <title>Bespoke</title>
+</head>
+<body>
+  <nav class="navbar bg-light">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Logo</a>
+
+    <ul class="navbar-nav flex-row">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 2</a>
+      </li> 
+    </ul>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon" style="color: #000"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-9">
+        <div class="row box my-3">
+          <div class="col-md-6">
+            <div class="row">
+              <img src="./images/image1.png" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-between">
+            <div class="d-flex justify-content-between align-content-center mt-2">
+              <div>
+                Plot for sale <br/>
+                Yamunanagar
+              </div>
+              <div >
+                View map
+              </div>
+            </div>
+            <div>
+              Category - Plot
+            </div>
+            <div>
+              Rs. 20000
+            </div>
+          </div>
+        </div>
+        <div class="row box my-3 py-2 px-1 text-center keyDetails">
+          <div class="col-4">
+            <i class="fas fa-home mx-1"></i>
+            <span class="d-block d-sm-inline">99Yard</span>
+          </div>
+          <div class="col-4">
+            <i class="fas fa-map-marker-alt mx-1"></i>
+            <span class="d-block d-sm-inline">Abdullapur</span>
+          </div>
+          <div class="col-4">
+            <i class="fas fa-door-open mx-1"></i>
+            <span class="d-block d-sm-inline">Freehold</span>
+          </div>
+        </div>
+        <div class="row box my-3 pb-2 text-center text-sm-left">
+          <div class="col-12">
+            <div class="row my-3">
+              <a class="col-12 head" style="color: #3a3f4c" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <h4>Navigation Links <i class="fas fa-caret-down mx-1 navIcons"></i></h4>
+              </a>
+            </div>
+
+            <div class="collapse row" id="collapseExample">
+              <div class="col-sm-2 text-center">
+                Overview
+              </div>
+              <div class="col-sm-2 text-center">
+                Address
+              </div>
+              <div class="col-sm-2 text-center">
+                Property
+              </div>
+              <div class="col-sm-2 text-center">
+                Overview
+              </div>
+              <div class="col-sm-2 text-center">
+                Overview
+              </div>
+              <div class="col-sm-2 text-center">
+                Overview
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row box text-center text-sm-left">
+          <div class="col-12">
+            <div class="head my-3" id="overview">
+              <h4 class="mb-4">
+                Overview
+              </h4>
+              
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-4 pb-3 pb-sm-0">
+                <a style="color: #3a3f4c" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="true" aria-controls="collapseExample">
+                  Property type <i class="fas fa-caret-down mx-1 navIcons"></i>
+                </a><br/>
+                <div class="collapse show" id="collapse1">
+                  <small>
+                    <b>Category - </b>Plot<br/>
+                    <b>Built-up Area - </b>1000 sq ft
+                  </small>
+                </div>
+              </div>
+              <div class="col-md-4 pb-3 pb-sm-0">
+                <a style="color: #3a3f4c" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="true" aria-controls="collapseExample">
+                  Availability <i class="fas fa-caret-down mx-1 navIcons"></i>
+                </a>
+                <div class="collapse" id="collapse2">
+                  <small>
+                    <b>Balconies - </b>2<br/>
+                    <b>Availability - </b>Ready to move
+                  </small>
+                </div>
+              </div>
+              <div class="col-md-4 pb-3 pb-sm-0">
+                <a style="color: #3a3f4c" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="true" aria-controls="collapseExample">
+                  Bathrooms <i class="fas fa-caret-down mx-1 navIcons"></i>
+                </a>
+                <div class="collapse" id="collapse3">
+                  <small>
+                    <b>3</b>
+                  </small>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12">
+                <div class="head my-3" id="address">
+                  <h4 class="mb-4">
+                    Address
+                  </h4>
+                </div>
+                <div>
+                  Abdullapur
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12">
+                <div class="head my-3" id="details">
+                  <h4 class="mb-4">
+                    Property details
+                  </h4>
+                </div>
+                <div>
+                  Abdullapur
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+    </div>
+  </div>
+</div>
