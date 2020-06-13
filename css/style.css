@@ -1,8 +1,17 @@
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'montserrat', sans-serif;
 	color: #3a3f4c;
 	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: initial;
 }
 
 a:hover {
@@ -16,6 +25,11 @@ a:hover {
 
 .navbar {
 	border-bottom: solid 2px #000;
+}
+
+.header {
+	background-image:  linear-gradient(to right, #f9a11b00, #f9a11b),  url('../images/image2.png');
+	min-height: 300px;
 }
 
 .head {
@@ -42,6 +56,10 @@ a:hover {
 	margin-bottom: 1rem;
 }
 
+.amount {
+	font-size: 200%;
+}
+
 .galleryImages {
   display: flex;
   flex-wrap: wrap;
@@ -60,10 +78,23 @@ a:hover {
   width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 575px) {
 
 	.imgRow {
 		border-bottom: 3px solid #f9a11b;
+		background-image: url('../images/image2.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 300px;
+	}
+
+	.header {
+		background-image: none;
+	}
+
+	.box {
+		border: none;
 	}
 
 	.plotSale {
@@ -71,6 +102,7 @@ a:hover {
 		color: #fff;
 		padding: 5px 10px;
 		border-bottom-right-radius: 12px;
+		border-bottom-left-radius: 12px;
 		font-weight: 600;
 		font-size: 125%;
 	}
@@ -78,5 +110,9 @@ a:hover {
 	.head::after {
 		width: 90vw;
 		left: 5vw;
+	}
+
+	.amount {
+		font-size: unset;
 	}
 }

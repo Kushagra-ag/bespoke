@@ -18,12 +18,12 @@
     <!-- Brand -->
     <a class="navbar-brand" href="#">Logo</a>
 
-    <ul class="navbar-nav flex-row">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link 1</a>
+    <ul class="navbar-nav flex-row ml-auto mr-1" >
+      <li class="nav-item mx-1">
+        <a class="nav-link" href="#" style="color: #f9a11b"><i class="fas fa-address-book mx-1"></i>Login</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link 2</a>
+      <li class="nav-item mx-1">
+        <a class="nav-link" href="#" style="color: #f9a11b"><i class="fas fa-edit mx-1"></i>Blog</a>
       </li> 
     </ul>
 
@@ -36,13 +36,19 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Login /Register</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Post Property</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Post your Rewuirement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Builder Projects</a>
         </li>
       </ul>
     </div>
@@ -50,28 +56,22 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-9">
-        <div class="row box my-3">
-          <div class="col-md-6">
-            <div class="row imgRow">
-              <img src="./images/image1.png" style="width: 100%">
-            </div>
+        <div class="row box header my-3 justify-content-end">
+          <div class="imgRow d-sm-none">
+            <!-- <img src="./images/image1.png" style="width: 100%"> -->
           </div>
-          <div class="col-md-6 d-flex flex-column justify-content-between">
-            <div class="row justify-content-between align-content-center">
-              <div class="plotSale pl-3">
-                Plot for SALE <br/>
-              </div>
-              <div>
-                Yamunanagar
-              </div>
-              <div >
-                View map
-              </div>
+          
+          <div class="col-md-6 d-flex flex-column justify-content-center text-center text-sm-right font-weight-bold">
+
+            <div class="plotSale pl-sm-0 pl-3 mb-2 mt-sm-5">
+              Plot for SALE <br/>
             </div>
-            <div>
+
+            
+            <div class="my-2">
               Category - Plot
             </div>
-            <div>
+            <div class="my-2 mt-auto amount">
               Rs. 20000
             </div>
           </div>
@@ -100,22 +100,22 @@
 
             <div class="collapse row" id="collapseExample">
               <div class="col-sm-2 text-center">
-                Overview
+                <a href="#overview">Overview</a>
               </div>
               <div class="col-sm-2 text-center">
-                Address
+                <a href="#address">Address</a>
+              </div>
+              <div class="col-sm-2 text-center">
+                <a href="#description">Description</a>
+              </div>
+              <div class="col-sm-2 text-center">
+                Amenities
+              </div>
+              <div class="col-sm-2 text-center">
+                <a href="#gallery">Gallery</a>
               </div>
               <div class="col-sm-2 text-center">
                 Details
-              </div>
-              <div class="col-sm-2 text-center">
-                Overview
-              </div>
-              <div class="col-sm-2 text-center">
-                Overview
-              </div>
-              <div class="col-sm-2 text-center">
-                Overview
               </div>
             </div>
           </div>
@@ -175,13 +175,13 @@
             </div>
             <div class="row mb-3">
               <div class="col-12">
-                <div class="head my-3" id="details">
+                <div class="head my-3" id="description">
                   <h4 class="mb-4">
-                    Property details
+                    Description
                   </h4>
                 </div>
                 <div>
-                  Abdullapur
+                  A plot near road, for sale. In yamuna nagar haryana.
                 </div>
               </div>
             </div>
@@ -189,7 +189,7 @@
         </div>
         <div class="row mb-5 box gallery text-center text-sm-left">
           <div class="col-12">
-            <div class="head my-3" id="overview">
+            <div class="head my-3" id="gallery">
               <h4 class="mb-4">
                 Gallery
               </h4>
